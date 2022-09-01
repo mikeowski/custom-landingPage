@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap');
+body {
+  @apply mx-auto h-screen max-w-screen-lg px-2 md:max-w-screen-2xl;
+}
+strong {
+  @apply text-teal-500;
+}
