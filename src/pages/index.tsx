@@ -1,5 +1,4 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
 import Image from 'next/image'
 
 const Home: NextPage = () => {
@@ -12,7 +11,6 @@ const Home: NextPage = () => {
           height="110"
           alt="logo"
         />
-        <button className="ml-auto">light</button>
       </header>
       <main className="flex flex-col items-center justify-between self-center pt-14">
         <div className="grid grid-cols-6 place-content-center content-center pb-10 md:grid-rows-3">
@@ -31,7 +29,7 @@ const Home: NextPage = () => {
           <h1 className="col-span-6 place-self-center text-center text-6xl font-black sm:text-7xl md:col-span-4 md:row-span-3 md:text-8xl lg:row-span-2">
             Dream Tattos
           </h1>
-          <p className="col-span-6 p-2 text-center text-xl font-normal leading-6 text-gray-900 sm:text-2xl md:col-span-6 md:row-span-2 lg:col-span-4">
+          <p className="col-span-6 p-2 text-center text-xl font-normal leading-6 text-gray-900 dark:text-gray-200 sm:text-2xl md:col-span-6 md:row-span-2 lg:col-span-4">
             Our tattoo and piercing artists have years of training and
             experience with a variety of custom tattoo designs and body
             piercings. When you choose Studio 28, you get a
@@ -41,7 +39,7 @@ const Home: NextPage = () => {
             tattoo or piercing
           </p>
         </div>
-        <div className="flex w-full flex-col items-center justify-center space-y-8 rounded-lg bg-teal-700 py-12 text-center text-teal-50">
+        <div className="flex w-full flex-col items-center justify-center space-y-8 rounded-lg bg-teal-700 p-2 py-12 text-center text-teal-50">
           <span className="text-6xl"> Premier Service & Expertise</span>
           <p className="text-center text-xl font-normal leading-6 text-teal-100">
             At Studio 28, we are passionate about our craft and work hard to
